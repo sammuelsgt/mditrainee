@@ -4,29 +4,171 @@
         <meta charset="UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <title>
             Sammuel Tuliao
         </title>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <div class="navigationbar">
-                <a href="/webportfolio/mditrainee/index.html">SAMMUEL TULIAO</a>   
-                <a class="active" href="D:/webportfolio/mditrainee/index.html">HOME</a>
-                <a href="/webportfolio/mditrainee/aboutme.html">ABOUT ME</a>
-                <a href="/webportfolio/mditrainee/aboutme.html">RESUME</a>
-                <a href="/webportfolio/mditrainee/aboutme.html">PORTFOLIO</a>
-              
-        </div>
-        <div class="container">
-            <div class="child">
-             <img src="pictures\tuliaopic.JPG" alt="sammuel"  class="Picture"> 
-             <p><strong>Hello, I'm Sammuel.</strong></p>
-             <p>I am Currently a Software Engineer, driven to become a Data Scientist.</p>
+        <header>
+          <h1><a href="/webportfolio/mditrainee/index.html">SAMMUEL TULIAO</a></h1>
+          <nav>
+            <ul>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="Sammuel tuliao - CV.pdf" target="_blank">Resume 
+                <img src="pictures\file-svgrepo-com.svg" alt="resume" width="14px" height="14px">
+              </a></li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <section id="myname">
+            <div class="simula">
+             <h2>Hi, I'm Sammuel.</h2>
+                <p>I am currently a Software Engineer
+                and intend to become a Data Scientist in the future. </p>
+                <div class="row">
+                    <div class="icons">
+                        <span><a href="https://github.com/PenneP" target="_blank"><img src="pictures\github-svgrepo-com.svg" alt="github" width="16px" height="16px"></a></span>
+                    </div> 
+                    <div class="icons">
+                        <span><a href="https://www.linkedin.com/in/sammuel-t-37b79a21b/" target="_blank"><img src="pictures\linkedin-svgrepo-com.svg" alt="linkedin" width="16px" height="16px"></a></span>
+                    </div>
+                    
+                </div>
             </div>
-        </div>
-              Data may disappoint, but it never lies. -Jay Samit
-    </body>
+          </section>
+          <section id="projects">
+            
+                    <h2>My Projects</h2>
+                <hr>
+                <div class="myprojects">
+                <ul>
+                    <div >
+                        <li>
+                            <h3>Library Management System</h3>
+                            <p>A simple library system that can keep track of things. It includes basic function</p>
+                            <p>such as crud functionality and user authentication.</p>
+                        </li>
+                        <div>
+                            <img src="pictures\library-pictogram.svg" alt="placeholder" width="400px" height="150px">
+                        </div>
+                        
+                    </div>
+                    
+                        
+                    
+
+               
+                    <div >
+                        <li>    
+                            <h3>Spa Reservation System</h3>
+                            <p>A simple console based reservation system that ask user for input.</p>
+                            <p>and schedule them a date and time for a spa session.</p>
+                        </li>
+                        <div>
+                            <img src="pictures\1539105140.svg" alt="placeholder" width="400px" height="150px">
+                        </div>
+                        
+                        
+                    </div>
+                    <div >
+                        <li>
+                            <h3>E-Commerce Website</h3>
+                            <p>A simple E-commerce web app for exotic animals and feeders. It includes basic function</p>
+                            <p>such as crud functionality and user authentication.</p>
+                        </li>
+                        <div>
+                            <img src="pictures\1653009807e-commerce-svgrepo-com.svg" alt="placeholder" width="400px" height="150px">
+                        </div>
+                        
+                    </div>
+                
+                </ul>
+            </div>
+            
+          </section>
+          
+          <section class="quote">
+            <div>
+                <strong><h2>Data may disappoint, but it never lies. - Jay Samit</h2></strong>
+            </div>
+            
+          </section>
+          
+          <section id="about">
+            <h2>About me</h2>
+            <hr>
+            <div class="aboutme">
+                <div class="text-base">
+                <p>Hi! I am Sammuel Tuliao, I love data and I have passion in
+                collecting them and turning them to useful information.
+                I also like to be a part of solving problems and creating solutions.</p>
+                <br>
+                <p>Here are the technologies that I have used.</p>
+                <br>
+                    <div class="icongroup">
+                        <div class="icons">
+                            <span><img src="pictures\pgsql-svgrepo-com.svg" alt="postgresql" width="16px" height="16px"></span>
+                            <span>PostgreSQL</span>
+                            </div>
+                            <div class="icons">
+                                <span><img src="pictures\mysql-svgrepo-com.svg" alt="MySQL" width="16px" height="16px"></span>
+                                <span>MySQL</span></div>
+                            <div class="icons">
+                                <span><img src="pictures\py-svgrepo-com.svg" alt="Python" width="16px" height="16px"></span>
+                                <span>Python</span></div>
+                            <div class="icons">
+                                <span><img src="pictures\flutter-svgrepo-com.svg" alt="Flutter" width="16px" height="16px"></span>
+                                <span>Flutter</span></div>
+                            <div class="icons">
+                                <span><img src="pictures\github-svgrepo-com.svg" alt="Github" width="16px" height="16px"></span>
+                                <span>Github</span></div>
+                            <div class="icons">
+                                <span><img src="pictures\java-svgrepo-com.svg" alt="Java" width="16px" height="16px"></span>
+                                <span>Java</span></div>
+                            <div class="icons">
+                                <span><img src="pictures\java-svgrepo-com (1).svg" alt="Javascript" width="16px" height="16px"></span>
+                                <span>Javascript</span></div>
+                            <div class="icons">
+                                <span><img src="pictures\firebase-svgrepo-com.svg" alt="Firebase" width="16px" height="16px"></span>
+                                <span>Firebase</span></div>
+                            <div class="icons">
+                                <span><img src="pictures\android-svgrepo-com.svg" alt="Android Studio" width="16px" height="16px"></span>
+                                <span>Android Studio</span></div>
+                            <div class="icons">
+                                <span><img src="pictures\php-svgrepo-com.svg" alt="PHP" width="16px" height="16px"></span>
+                                <span>PHP</span></div>
+                    </div>
+                </div>
+                <div class="profilepic">
+                <img src="pictures\tuliaopic.JPG" alt="Sammuel Tuliao Picture" >
+                </div>
+            </div>
+
+          </section>
+         <section id="contact">
+            <h2>Contact</h2>
+            <hr>
+            <div>
+                <center>
+                <p>Say hi to me.
+                    I would love to hear from you. Whether it’s a project, a job opportunity,
+                    or just a chat. Feel free to contact me.
+                </p>
+                <br>
+                 <button class="show-form">
+                    <span>Email</span>
+                    <span><img src="pictures\email-svgrepo-com.svg" alt="email" width="16px" height="16px"></span>
+                </button></center>
+            </div>
+
+          </section>
+
+        </main>
     <div class="footer">
         <footer>
             <a href="https://www.linkedin.com/in/sammuel-t-37b79a21b/" target="_blank"> 
@@ -37,4 +179,3 @@
         </footer>
     </div>
 </html>
-
